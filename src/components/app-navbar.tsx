@@ -39,11 +39,11 @@ export function AppNavbar() {
   }
 
   const menuItems = [
-    // {
-    //   roles: ["administrador", "empleado"],
-    //   name: "Realizar venta",
-    //   href: "/realizar-ventas",
-    // },
+    {
+      roles: ["administrador", "empleado"],
+      name: "Realizar venta",
+      href: "/realizar-ventas",
+    },
     {
       roles: ["administrador"],
       name: "Productos",
@@ -54,26 +54,26 @@ export function AppNavbar() {
       name: "Categorias",
       href: "/categorias",
     },
-    // {
-    //   roles: ["administrador"],
-    //   name: "Descuentos",
-    //   href: "/descuentos",
-    // },
-    // {
-    //   roles: ["administrador"],
-    //   name: "Empleados",
-    //   href: "/empleados",
-    // },
+    {
+      roles: ["administrador"],
+      name: "Descuentos",
+      href: "/descuentos",
+    },
+    {
+      roles: ["administrador"],
+      name: "Empleados",
+      href: "/empleados",
+    },
     {
       roles: ["administrador"],
       name: "Clientes",
       href: "/clientes",
     },
-    // {
-    //   roles: ["administrador", "empleado"],
-    //   name: "Ventas realizadas",
-    //   href: "/ventas-realizadas",
-    // },
+    {
+      roles: ["administrador", "empleado"],
+      name: "Ventas realizadas",
+      href: "/ventas-realizadas",
+    },
   ];
 
   return (
